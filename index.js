@@ -10,7 +10,7 @@ app.get('/about', function(req, res) { // '/' 위치에 'get'요청을 받는 �
 });
 
 app.get('/me', function(req, res) { // '/' 위치에 'get'요청을 받는 경우,
-  res.send('BUGA !'); // "Hello World!"를 보냅니다.
+  res.send('BUGA update from pc !'); // "Hello World!"를 보냅니다.
 });
 
 var port = 3000; // 사용할 포트 번호를 port 변수에 넣습니다. 
